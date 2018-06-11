@@ -5,7 +5,7 @@
 # Python + Django
 *.log
 *.log.*
-backend/backend/local_settings.py
+backend/lavalog/local_settings.py
 
 .idea
 backend/logs/*
