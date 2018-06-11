@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E33434DAC2A02FD6A0414A7 /* Pods_lavalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9020ADA9461CC9A218C25199 /* Pods_lavalog.framework */; };
+		9C08F64720CE1F1D001313D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08F64620CE1F1D001313D2 /* AppDelegate.swift */; };
+		9C08F64920CE1F1D001313D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08F64820CE1F1D001313D2 /* ViewController.swift */; };
+		9C08F64C20CE1F1D001313D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C08F64A20CE1F1D001313D2 /* Main.storyboard */; };
+		9C08F64E20CE1F1D001313D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C08F64D20CE1F1D001313D2 /* Assets.xcassets */; };
+		9C08F65120CE1F1D001313D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C08F64F20CE1F1D001313D2 /* LaunchScreen.storyboard */; };
+		9C08F65C20CE1F1E001313D2 /* lavalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08F65B20CE1F1E001313D2 /* lavalogTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C08F65820CE1F1E001313D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C08F63B20CE1F1D001313D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C08F64220CE1F1D001313D2;
+			remoteInfo = lavalog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89305B3AAC1A79176C8A4AAC /* Pods-lavalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-lavalog/Pods-lavalog.release.xcconfig"; sourceTree = "<group>"; };
+		9020ADA9461CC9A218C25199 /* Pods_lavalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lavalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08F64320CE1F1D001313D2 /* lavalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lavalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08F64620CE1F1D001313D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C08F64820CE1F1D001313D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C08F64B20CE1F1D001313D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C08F64D20CE1F1D001313D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C08F65020CE1F1D001313D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C08F65220CE1F1D001313D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C08F65720CE1F1E001313D2 /* lavalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lavalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08F65B20CE1F1E001313D2 /* lavalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalogTests.swift; sourceTree = "<group>"; };
+		9C08F65D20CE1F1E001313D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7FF613AB0F8E660425EBC4 /* Pods-lavalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lavalog/Pods-lavalog.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C08F64020CE1F1D001313D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E33434DAC2A02FD6A0414A7 /* Pods_lavalog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08F65420CE1F1E001313D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDFB17C53CB0B68CAC281C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9020ADA9461CC9A218C25199 /* Pods_lavalog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C7AC75C45AFF33ECD711DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7FF613AB0F8E660425EBC4 /* Pods-lavalog.debug.xcconfig */,
+				89305B3AAC1A79176C8A4AAC /* Pods-lavalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C08F63A20CE1F1D001313D2 = {
+			isa = PBXGroup;
+			children = (
+				9C08F64520CE1F1D001313D2 /* lavalog */,
+				9C08F65A20CE1F1E001313D2 /* lavalogTests */,
+				9C08F64420CE1F1D001313D2 /* Products */,
+				90C7AC75C45AFF33ECD711DE /* Pods */,
+				3FDFB17C53CB0B68CAC281C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C08F64420CE1F1D001313D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C08F64320CE1F1D001313D2 /* lavalog.app */,
+				9C08F65720CE1F1E001313D2 /* lavalogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C08F64520CE1F1D001313D2 /* lavalog */ = {
+			isa = PBXGroup;
+			children = (
+				9C08F64620CE1F1D001313D2 /* AppDelegate.swift */,
+				9C08F64820CE1F1D001313D2 /* ViewController.swift */,
+				9C08F64A20CE1F1D001313D2 /* Main.storyboard */,
+				9C08F64D20CE1F1D001313D2 /* Assets.xcassets */,
+				9C08F64F20CE1F1D001313D2 /* LaunchScreen.storyboard */,
+				9C08F65220CE1F1D001313D2 /* Info.plist */,
+			);
+			path = lavalog;
+			sourceTree = "<group>";
+		};
+		9C08F65A20CE1F1E001313D2 /* lavalogTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C08F65B20CE1F1E001313D2 /* lavalogTests.swift */,
+				9C08F65D20CE1F1E001313D2 /* Info.plist */,
+			);
+			path = lavalogTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C08F64220CE1F1D001313D2 /* lavalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08F66020CE1F1E001313D2 /* Build configuration list for PBXNativeTarget "lavalog" */;
+			buildPhases = (
+				E84F75005B33C04C55B09588 /* [CP] Check Pods Manifest.lock */,
+				9C08F63F20CE1F1D001313D2 /* Sources */,
+				9C08F64020CE1F1D001313D2 /* Frameworks */,
+				9C08F64120CE1F1D001313D2 /* Resources */,
+				346EF2C21A06869FF39DB695 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lavalog;
+			productName = lavalog;
+			productReference = 9C08F64320CE1F1D001313D2 /* lavalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C08F65620CE1F1E001313D2 /* lavalogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08F66320CE1F1E001313D2 /* Build configuration list for PBXNativeTarget "lavalogTests" */;
+			buildPhases = (
+				9C08F65320CE1F1E001313D2 /* Sources */,
+				9C08F65420CE1F1E001313D2 /* Frameworks */,
+				9C08F65520CE1F1E001313D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C08F65920CE1F1E001313D2 /* PBXTargetDependency */,
+			);
+			name = lavalogTests;
+			productName = lavalogTests;
+			productReference = 9C08F65720CE1F1E001313D2 /* lavalogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C08F63B20CE1F1D001313D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bingxin Fan";
+				TargetAttributes = {
+					9C08F64220CE1F1D001313D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9C08F65620CE1F1E001313D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C08F64220CE1F1D001313D2;
+					};
+				};
+			};
+			buildConfigurationList = 9C08F63E20CE1F1D001313D2 /* Build configuration list for PBXProject "lavalog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C08F63A20CE1F1D001313D2;
+			productRefGroup = 9C08F64420CE1F1D001313D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C08F64220CE1F1D001313D2 /* lavalog */,
+				9C08F65620CE1F1E001313D2 /* lavalogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C08F64120CE1F1D001313D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08F65120CE1F1D001313D2 /* LaunchScreen.storyboard in Resources */,
+				9C08F64E20CE1F1D001313D2 /* Assets.xcassets in Resources */,
+				9C08F64C20CE1F1D001313D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08F65520CE1F1E001313D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346EF2C21A06869FF39DB695 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lavalog/Pods-lavalog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AwesomeCache/AwesomeCache.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavalog/Pods-lavalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84F75005B33C04C55B09588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lavalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C08F63F20CE1F1D001313D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08F64920CE1F1D001313D2 /* ViewController.swift in Sources */,
+				9C08F64720CE1F1D001313D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08F65320CE1F1E001313D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08F65C20CE1F1E001313D2 /* lavalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C08F65920CE1F1E001313D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C08F64220CE1F1D001313D2 /* lavalog */;
+			targetProxy = 9C08F65820CE1F1E001313D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C08F64A20CE1F1D001313D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C08F64B20CE1F1D001313D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C08F64F20CE1F1D001313D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C08F65020CE1F1D001313D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C08F65E20CE1F1E001313D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C08F65F20CE1F1E001313D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C08F66120CE1F1E001313D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7FF613AB0F8E660425EBC4 /* Pods-lavalog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lavalog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.lavalog.lavalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9C08F66220CE1F1E001313D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89305B3AAC1A79176C8A4AAC /* Pods-lavalog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lavalog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.lavalog.lavalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		9C08F66420CE1F1E001313D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lavalogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.lavalog.lavalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lavalog.app/lavalog";
+			};
+			name = Debug;
+		};
+		9C08F66520CE1F1E001313D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lavalogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.lavalog.lavalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lavalog.app/lavalog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C08F63E20CE1F1D001313D2 /* Build configuration list for PBXProject "lavalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08F65E20CE1F1E001313D2 /* Debug */,
+				9C08F65F20CE1F1E001313D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C08F66020CE1F1E001313D2 /* Build configuration list for PBXNativeTarget "lavalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08F66120CE1F1E001313D2 /* Debug */,
+				9C08F66220CE1F1E001313D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C08F66320CE1F1E001313D2 /* Build configuration list for PBXNativeTarget "lavalogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08F66420CE1F1E001313D2 /* Debug */,
+				9C08F66520CE1F1E001313D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C08F63B20CE1F1D001313D2 /* Project object */;
+}
