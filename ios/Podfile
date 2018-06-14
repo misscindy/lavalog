@@ -16,5 +16,8 @@ target 'lavalog' do
     pod 'Spring', '~> 1.0.3'
    #  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
     pod 'ReachabilitySwift', '~> 3'
+    
+    # UI stuff
+    pod 'GhostTypewriter'
 
 end
