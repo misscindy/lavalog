@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # === calling app === #
     'api',
     'web',
+    'util',
 
     # === third party === #
     'oauth2_provider',
